@@ -72,11 +72,11 @@ const icons = [
             })
           } */}
 
-         
+
         </div>
 
         <div className=" p-4 md:border-b md:border-foreground/10 ">
-         
+
           <div className="grid grid-cols-[2fr_2fr_1fr] md:grid-cols-[1fr_1fr_2fr] w-fit  gap-4 font-medium text-foreground/70 ">
 
             <ul>
@@ -99,13 +99,13 @@ const icons = [
               }
 
             </ul>
-            
+
              <div className="py-2 flex gap-4 ">
-              <Link href='https://github.com/Ashutoshx7/VengeanceUI'>
-            < Github className="hover:text-foreground"/> 
+              <Link href='https://github.com/andi-nugroho/VengeanceUI'>
+            < Github className="hover:text-foreground"/>
               </Link>
-            
-          </div> 
+
+          </div>
           </div>
         </div>
 
@@ -126,7 +126,7 @@ const icons = [
             }}
 
           />
-            
+
         </div>
 
         <div className="flex text-[3rem] md:text-[6rem] items-center md:justify-center bg-[ #e91e63] overflow-hidden md:relative">
