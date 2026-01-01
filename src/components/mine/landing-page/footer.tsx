@@ -101,7 +101,7 @@ const icons = [
             </ul>
 
              <div className="py-2 flex gap-4 ">
-              <Link href='https://github.com/andi-nugroho/VengeanceUI'>
+              <Link href='https://github.com/andi-nugroho/vengeanceUI'>
             < Github className="hover:text-foreground"/>
               </Link>
 
@@ -122,7 +122,7 @@ const icons = [
             }}
 
             transition={{
-              duration: 0.3
+              duration: 0.4
             }}
 
           />
