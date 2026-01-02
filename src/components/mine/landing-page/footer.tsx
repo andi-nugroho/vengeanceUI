@@ -21,12 +21,12 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
 
-const icons = [
-                {
-                  icon: Instagram,
-                  link: "https://www.instagram.com/epitome0.0/",
-                }
-              ]
+  const icons = [
+    {
+      icon: Instagram,
+      link: "https://www.instagram.com/epitome0.0/",
+    }
+  ]
 
   const firstLI = [
     {
@@ -83,8 +83,8 @@ const icons = [
 
               {
                 firstLI.map((el, id) => {
-                  return <Link href={el.href}>
-                    <li key={id} className="hover:text-foreground"> {el.li}</li>
+                  return <Link href={el.href} key={id}>
+                    <li className="hover:text-foreground"> {el.li}</li>
                   </Link>
                 })
               }
@@ -92,20 +92,20 @@ const icons = [
             <ul>
               {
                 secondLI.map((el, id) => {
-                  return <Link href={el.href}>
-                    <li key={id} className="hover:text-foreground">{el.li}</li>
+                  return <Link href={el.href} key={id}>
+                    <li className="hover:text-foreground">{el.li}</li>
                   </Link>
                 })
               }
 
             </ul>
 
-             <div className="py-2 flex gap-4 ">
+            <div className="py-2 flex gap-4 ">
               <Link href='https://github.com/andi-nugroho/vengeanceUI'>
-            < Github className="hover:text-foreground"/>
+                < Github className="hover:text-foreground" />
               </Link>
 
-          </div>
+            </div>
           </div>
         </div>
 
@@ -122,7 +122,7 @@ const icons = [
             }}
 
             transition={{
-              duration: 0.4
+              duration: 0.3
             }}
 
           />
